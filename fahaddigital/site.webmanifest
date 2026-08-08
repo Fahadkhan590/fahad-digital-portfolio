@@ -1,0 +1,23 @@
+{
+  "name": "Fahad Digital — Web Design Portfolio",
+  "short_name": "Fahad Digital",
+  "description": "Independent web design brand creating modern, conversion-focused websites and landing pages for businesses.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c1424",
+  "theme_color": "#0c1424",
+  "icons": [
+    {
+      "src": "/assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

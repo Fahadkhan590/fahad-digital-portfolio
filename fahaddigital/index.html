@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <title>Fahad Digital — Web Design Portfolio</title>
+  <meta name="description" content="Fahad Digital is an independent web design brand creating modern, conversion-focused business websites and landing pages. View selected work and start a project today.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://fahaddigital.vercel.app/">
+  <meta name="theme-color" content="#0c1424">
+  <meta name="author" content="Fahad Digital">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Fahad Digital">
+  <meta property="og:title" content="Fahad Digital — Web Design Portfolio">
+  <meta property="og:description" content="Modern, conversion-focused business websites and landing pages by Fahad Digital — an independent web design brand.">
+  <meta property="og:url" content="https://fahaddigital.vercel.app/">
+  <meta property="og:image" content="https://fahaddigital.vercel.app/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fahad Digital — modern web design workspace">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fahad Digital — Web Design Portfolio">
+  <meta name="twitter:description" content="Modern, conversion-focused business websites and landing pages by Fahad Digital — an independent web design brand.">
+  <meta name="twitter:image" content="https://fahaddigital.vercel.app/assets/img/og-image.jpg">
+  <meta name="twitter:image:alt" content="Fahad Digital — modern web design workspace">
+
+  <!-- Favicon / branding -->
+  <link rel="icon" href="assets/img/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Performance: preload hero image + critical fonts -->
+  <link rel="preload" as="image"
+        href="assets/img/hero-1600.webp"
+        imagesrcset="assets/img/hero-768.webp 768w, assets/img/hero-1100.webp 1100w, assets/img/hero-1600.webp 1600w"
+        imagesizes="100vw" fetchpriority="high">
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/inter-400.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/inter-600.woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://fahaddigital.vercel.app/#website",
+        "url": "https://fahaddigital.vercel.app/",
+        "name": "Fahad Digital — Web Design Portfolio",
+        "description": "Modern, conversion-focused business websites and landing pages by Fahad Digital.",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://fahaddigital.vercel.app/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://fahaddigital.vercel.app/#organization",
+        "name": "Fahad Digital",
+        "url": "https://fahaddigital.vercel.app/",
+        "email": "believerbk4@gmail.com",
+        "description": "Fahad Digital is an independent web design brand focused on creating help local businesses establish a stronger online presence.",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://fahaddigital.vercel.app/assets/img/icon-512.png",
+          "width": 512,
+          "height": 512
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ================= Header ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Fahad Digital — back to top">
+        <img class="brand-mark" src="assets/img/logo.svg" width="38" height="38" alt="Fahad Digital logo">
+        <span class="brand-text">Fahad&nbsp;<em>Digital</em></span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--primary btn--small header-cta" href="#contact">Start a Project</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= Mobile menu ================= -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true" aria-label="Mobile navigation">
+    <nav aria-label="Mobile navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--primary menu-cta" href="#contact">Start a Project</a>
+    <p class="menu-contact">
+      Prefer to write first?
+      <a href="mailto:believerbk4@gmail.com?subject=Fahad%20Digital%20%E2%80%94%20Project%20Inquiry">believerbk4@gmail.com</a>
+    </p>
+  </div>
+
+  <main id="main">
+    <!-- ================= Hero ================= -->
+    <section class="hero" id="home" aria-label="Introduction">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/img/hero-1600.webp"
+             srcset="assets/img/hero-768.webp 768w,
+                     assets/img/hero-1100.webp 1100w,
+                     assets/img/hero-1600.webp 1600w"
+             sizes="100vw"
+             width="1600" height="900"
+             alt="A modern web design workspace at dusk, with a laptop displaying a clean website wireframe"
+             fetchpriority="high" decoding="async">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <p class="eyebrow" data-reveal>Fahad Digital — Web Design &amp; Development</p>
+        <h1 data-reveal>Websites Built to Make Businesses Look Professional Online.</h1>
+        <p class="hero-sub" data-reveal>
+          Fahad Digital creates modern, conversion-focused websites and landing pages designed
+          to help businesses build credibility and turn visitors into customers.
+        </p>
+        <div class="hero-actions" data-reveal>
+          <a class="btn btn--primary" href="#work">View My Work</a>
+          <a class="btn btn--outline-light" href="#contact">Start a Project</a>
+        </div>
+        <ul class="hero-points" data-reveal>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Clean, modern design
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Responsive on every device
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Clear, honest communication
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= Selected Work ================= -->
+    <section class="section section--work" id="work" aria-labelledby="work-heading">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Portfolio</p>
+          <h2 id="work-heading">Selected Work</h2>
+          <p>The LocalForge agency website, plus a set of industry website concepts — working demos that show how a clean, conversion-focused online presence could look for different local businesses.</p>
+        </div>
+
+        <!-- Featured project: LocalForge -->
+        <article class="project project--featured" data-reveal>
+          <a class="project-media" href="https://localforgeweb.vercel.app" aria-label="Visit the LocalForge live website" target="_blank" rel="noopener noreferrer">
+            <img src="assets/img/project-localforge-800.webp"
+                 srcset="assets/img/project-localforge-800.webp 800w,
+                         assets/img/project-localforge-1200.webp 1200w"
+                 sizes="(max-width: 1023px) 100vw, 50vw"
+                 width="800" height="600"
+                 alt="Homepage screenshot of the LocalForge web design agency website"
+                 loading="lazy" decoding="async">
+            <span class="project-badge">Live Website</span>
+          </a>
+          <div class="project-body">
+            <p class="project-cat">Web Design Agency / Digital Presence</p>
+            <h3><a href="https://localforgeweb.vercel.app" target="_blank" rel="noopener noreferrer">LocalForge</a></h3>
+            <p>A complete agency website and portfolio system created for LocalForge.</p>
+            <ul class="chips" aria-label="Services provided">
+              <li>Web Design</li>
+              <li>Landing Pages</li>
+              <li>Responsive Development</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn--primary" href="https://localforgeweb.vercel.app" target="_blank" rel="noopener noreferrer">
+                View Live Website
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Industry website concepts (working demos) -->
+        <div class="project-grid">
+          <article class="project" data-reveal>
+            <a class="project-media" href="https://localforgeweb.vercel.app/demos/clearflow/index.html" aria-label="View the ClearFlow Plumbing live demo" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/project-clearflow-800.webp"
+                   srcset="assets/img/project-clearflow-800.webp 800w,
+                           assets/img/project-clearflow-1200.webp 1200w"
+                   sizes="(max-width: 640px) 100vw, (max-width: 940px) 50vw, 33vw"
+                   width="800" height="600"
+                   alt="Homepage screenshot of the ClearFlow Plumbing website concept demo"
+                   loading="lazy" decoding="async">
+              <span class="project-badge project-badge--demo">Concept Demo</span>
+            </a>
+            <div class="project-body">
+              <p class="project-cat">Plumbing Website Concept</p>
+              <h3><a href="https://localforgeweb.vercel.app/demos/clearflow/index.html" target="_blank" rel="noopener noreferrer">ClearFlow Plumbing</a></h3>
+              <p>A professional plumbing website concept focused on clear services, trust-building content, and easy customer contact.</p>
+              <div class="project-actions">
+                <a class="btn btn--primary" href="https://localforgeweb.vercel.app/demos/clearflow/index.html" target="_blank" rel="noopener noreferrer">
+                  View Live Demo
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project" data-reveal>
+            <a class="project-media" href="https://localforgeweb.vercel.app/demos/greenedge/index.html" aria-label="View the GreenEdge Landscaping live demo" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/project-greenedge-800.webp"
+                   srcset="assets/img/project-greenedge-800.webp 800w,
+                           assets/img/project-greenedge-1200.webp 1200w"
+                   sizes="(max-width: 640px) 100vw, (max-width: 940px) 50vw, 33vw"
+                   width="800" height="600"
+                   alt="Homepage screenshot of the GreenEdge Landscaping website concept demo"
+                   loading="lazy" decoding="async">
+              <span class="project-badge project-badge--demo">Concept Demo</span>
+            </a>
+            <div class="project-body">
+              <p class="project-cat">Landscaping Website Concept</p>
+              <h3><a href="https://localforgeweb.vercel.app/demos/greenedge/index.html" target="_blank" rel="noopener noreferrer">GreenEdge Landscaping</a></h3>
+              <p>A modern landscaping website concept designed around service presentation, local customers, and clear calls to action.</p>
+              <div class="project-actions">
+                <a class="btn btn--primary" href="https://localforgeweb.vercel.app/demos/greenedge/index.html" target="_blank" rel="noopener noreferrer">
+                  View Live Demo
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project" data-reveal>
+            <a class="project-media" href="https://localforgeweb.vercel.app/demos/summitshield/index.html" aria-label="View the SummitShield Roofing live demo" target="_blank" rel="noopener noreferrer">
+              <img src="assets/img/project-summitshield-800.webp"
+                   srcset="assets/img/project-summitshield-800.webp 800w,
+                           assets/img/project-summitshield-1200.webp 1200w"
+                   sizes="(max-width: 640px) 100vw, (max-width: 940px) 50vw, 33vw"
+                   width="800" height="600"
+                   alt="Homepage screenshot of the SummitShield Roofing website concept demo"
+                   loading="lazy" decoding="async">
+              <span class="project-badge project-badge--demo">Concept Demo</span>
+            </a>
+            <div class="project-body">
+              <p class="project-cat">Roofing Website Concept</p>
+              <h3><a href="https://localforgeweb.vercel.app/demos/summitshield/index.html" target="_blank" rel="noopener noreferrer">SummitShield Roofing</a></h3>
+              <p>A professional roofing website concept focused on trust, service presentation, and customer inquiries.</p>
+              <div class="project-actions">
+                <a class="btn btn--primary" href="https://localforgeweb.vercel.app/demos/summitshield/index.html" target="_blank" rel="noopener noreferrer">
+                  View Live Demo
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="work-footnote" data-reveal>
+          Have a project in mind that belongs here? <a href="#contact">Let’s talk about it</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= Services ================= -->
+    <section class="section section--services" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Services</p>
+          <h2 id="services-heading">What I Can Help You With</h2>
+          <p>Every project is scoped clearly before work begins — you’ll always know what’s being built and why.</p>
+        </div>
+
+        <ol class="services-grid">
+          <li class="service" data-reveal>
+            <span class="service-num" aria-hidden="true">01</span>
+            <h3>Landing Pages</h3>
+            <p>Focused landing pages designed around one clear business goal.</p>
+          </li>
+          <li class="service" data-reveal>
+            <span class="service-num" aria-hidden="true">02</span>
+            <h3>Business Websites</h3>
+            <p>Professional websites designed to establish credibility and make it easy for customers to contact a business.</p>
+          </li>
+          <li class="service" data-reveal>
+            <span class="service-num" aria-hidden="true">03</span>
+            <h3>Local Service Business Websites</h3>
+            <p>Websites built for local service businesses — clear service information, local visibility, and simple ways for customers to get in touch.</p>
+          </li>
+          <li class="service" data-reveal>
+            <span class="service-num" aria-hidden="true">04</span>
+            <h3>Website + Google Business Profile Optimization</h3>
+            <p>Improving website structure, clarity, usability, and conversion paths, plus setting up or refining your Google Business Profile.</p>
+          </li>
+          <li class="service" data-reveal>
+            <span class="service-num" aria-hidden="true">05</span>
+            <h3>Hosting &amp; Maintenance</h3>
+            <p>Hosting setup, updates, maintenance, and improvements when required.</p>
+          </li>
+        </ol>
+
+        <p class="section-cta" data-reveal>Typical pricing, kept simple and transparent — <a href="pricing.html">View Pricing →</a></p>
+      </div>
+    </section>
+
+    <!-- ================= About ================= -->
+    <section class="section section--about" id="about" aria-labelledby="about-heading">
+      <div class="container about-grid">
+        <div class="about-copy" data-reveal>
+          <p class="eyebrow">About</p>
+          <h2 id="about-heading">A focused, independent web design brand.</h2>
+          <p>
+            <strong>Fahad Digital creates clean, modern, responsive websites designed to
+            help local businesses establish a stronger online presence.</strong>
+          </p>
+          <p>
+            Every project is handled personally — from the first layout to launch day — with
+            honest timelines, plain-language communication, and careful attention to how the
+            website performs once real customers start using it.
+          </p>
+          <p>
+            Working with Fahad Digital means working directly with the person building your
+            website. No hand-offs, no mystery — just a clear process and a finished site your
+            business can be proud of.
+          </p>
+        </div>
+
+        <aside class="about-card" data-reveal aria-label="How I work">
+          <p class="eyebrow">How I Work</p>
+          <ul>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Goal-first design</strong> Every page is designed around what your business needs it to do.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Direct communication</strong> You always talk to the person actually building your website.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Responsive by default</strong> Websites that look right on phones, tablets, laptops, and desktops.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span><strong>Support after launch</strong> Updates and improvements are available whenever you need them.</span>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ================= Contact ================= -->
+    <section class="section section--contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-heading">Let’s Talk About Your Project</h2>
+          <p>Tell me about your business and the website you need. You’ll get a clear, honest reply — no pressure, no jargon.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card" data-reveal>
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </span>
+            <h3>Email</h3>
+            <p class="contact-value">believerbk4@gmail.com</p>
+            <a class="btn btn--primary"
+               href="mailto:believerbk4@gmail.com?subject=Fahad%20Digital%20%E2%80%94%20Project%20Inquiry&body=Hi%20Fahad%20Digital%2C%0A%0AI%27d%20like%20to%20discuss%20a%20website%20project.%0A%0ABusiness%20name%3A%0AWebsite%2Fservice%20needed%3A%0AMessage%3A%0A%0AThanks%2C"
+               aria-label="Send an email to Fahad Digital at believerbk4@gmail.com">
+              Send an Email
+            </a>
+          </div>
+
+          <div class="contact-card" data-reveal>
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            </span>
+            <h3>WhatsApp</h3>
+            <p class="contact-value">+92 314 5265503</p>
+            <a class="btn btn--outline-light"
+               href="https://wa.me/923145265503?text=Hi%20Fahad%20Digital%2C%0A%0AI%27d%20like%20to%20discuss%20a%20website%20project."
+               target="_blank" rel="noopener"
+               aria-label="Message Fahad Digital on WhatsApp at plus 92 314 5265503">
+              Message on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <p class="contact-note" data-reveal>
+          The email button opens a ready-made project template — fill it in and send. Prefer a guided form? <a href="contact.html">Open the project form</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a class="brand" href="#home" aria-label="Fahad Digital — back to top">
+          <img class="brand-mark" src="assets/img/logo.svg" width="32" height="32" alt="Fahad Digital logo">
+          <span class="brand-text">Fahad&nbsp;<em>Digital</em></span>
+        </a>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Fahad Digital. All rights reserved.</p>
+        <p>Industry concepts shown are demonstration projects — not claims of completed client work.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
